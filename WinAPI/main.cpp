@@ -1,4 +1,4 @@
-#include <Windows.h>
+п»ї#include <Windows.h>
 #include "resource.h"
 
 //#define MESSAGE_BOX
@@ -28,7 +28,7 @@ BOOL CALLBACK DlgProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 	case WM_COMMAND:
 		switch (LOWORD(wParam))
 		{
-		case IDOK:MessageBox(NULL, "Была нажата кнопка OK", "Info", MB_ICONINFORMATION);break;
+		case IDOK:MessageBox(NULL, "Р‘С‹Р»Р° РЅР°Р¶Р°С‚Р° РєРЅРѕРїРєР° OK", "Info", MB_ICONINFORMATION);break;
 		case IDCANCEL:EndDialog(hwnd, 0);break;
 		}
 		break;
